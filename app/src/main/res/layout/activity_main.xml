@@ -9,11 +9,6 @@
     android:orientation="vertical"
     tools:context="com.example.julia.c_uebung_github.MainActivity">
 
-    <TextView
-        android:id="@+id/longitude"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="10pt" />
 
     <TextView
         android:id="@+id/latitude"
@@ -22,14 +17,28 @@
         android:textSize="10pt" />
 
     <TextView
+        android:id="@+id/longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:textSize="10pt" />
+
+    <TextView
         android:id="@+id/date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
         android:textSize="10pt" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_anzeigen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="letzte Standorte anzeigen" />
+
+    <Button
+        android:id="@+id/btn_maps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="aktuellen Standort auf Karte zeigen" />
 </LinearLayout>
