@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     Location currLoc;
 
     String DB_NAME = "gpsDB";
-    int DB_VERSION = 3;
+    int DB_VERSION = 4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
