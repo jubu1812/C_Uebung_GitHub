@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     }
 
     private void saveLocation(Location location, String date) {
-        db.execSQL(StandortTbl.SQL_INSERT, new String[]{"" + location.getLongitude(), "" + location.getLatitude(), date});
+        db.execSQL(StandortTbl.SQL_INSERT, new String[]{"" + location.getLatitude(), "" + location.getLongitude(), date});
     }
 
     @Override
